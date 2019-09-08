@@ -11,13 +11,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Spectral:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <div class="desktop">
     <div class="row">
-        <div class="col-md-12 bg-solid-dark">
-            <img src="resources/img/1x/dksolcol.png" class="dksolutions-title">
+        <div class="col-md-12">
+            <h1 class="txt-white pl-3">DKsolutions</h1>
         </div>
     </div>
     <div class="row sticky-top">
@@ -29,13 +30,13 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#"><h5>About</h5><span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#"><h5>Contact</h5>></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Gallery</a>
+                      <a class="nav-link" href="#"><h5>Gallery</h5>></a>
                     </li>
                   </ul>
                 </div>
@@ -43,38 +44,36 @@
         </div>
     </div>
     <div class="row pb-5 pt-5 bg-solid-dark">
-      <div class="col-md-3"></div>
-            <div class="col-md-6 ml-3 mr-2 pt-3">
+            <div class="col-md-12 pt-3 img-centered">
                 <img src="resources/img/1x/thelegendwarhol.png" class="thelegend">
             </div>
-        <div class="col-md-3"></div>
     </div>
     <div class="row bg-solid-dark pb-5">
         <div class="col-md-3"></div>
-        <div class="col-md-6 ml-3 mr-2 pt-3">
-          <img class="about-img cont-center pb-2" src="resources/img/1x/aboutme.png">
-          <p class="text-white center pr-1 pl-1 mt-5">DK was born and raised in Houston, Tx.
+        <div class="col-md-6  img-centered pt-3">
+          <h3 class="txt-white">About Me</h3>
+          <p class="txt-white txt-justify txt-revindent txt-details mt-5">DK was born and raised in Houston, Tx.
               These days he finds himself far from home in Norway, and hangs his hat right outside of Oslo.
               With this great new chapter in his life he also took on the challenge to do what he's always wanted to do. 
               Develop. Full of imagination and creativity he began learning Front End Development in 2017 and is now an emerging developer
               looking for new opportunities within DEVOPS. </p>
-              <p class="text-white center mt-5">Wanna talk? He's always game for a good conversation.</p>
-              <a href="https://www.dksolutions.co/contact.html"><p class="center">Reach Out Here</p></a>
+              <p class="txt-white txt-centered mt-5">Wanna talk? He's always game for a good conversation.</p>
+              <a href="https://www.dksolutions.co/contact.html"><p class="txt-centered">Reach Out Here</p></a>
       </div>
       <div class="col-md-3"></div>
       </div>
 
     <div class="row bg-solid-dark pt-5">
-      <div class="col-sm-12">
-              <img class="myworks-title" src="resources/img/1x/myworks4.png">            
+      <div class="col-sm-12 txt-centered">
+          <h3 class="txt-white">My Works</h3>            
       </div>
   </div>
 
 
     <div class="row bg-solid-dark pt-5">
-      <div class="col-md-6 cc-position">
-        <ul class="nav nav-tabs bb-none flt-rt">
-          <li class="active"><a data-toggle="tab" href="#home"><img src="resources/img/CCwhite.png" id="cc-img-size cc-img-position" class="portfolio-img pt-4"></a></li>
+      <div class="col-md-6">
+        <ul class="nav nav-tabs bb-none">
+          <li><a data-toggle="tab" href="#home"><img src="resources/img/CCwhite.png" id="cc-img-size cc-img-position" class="portfolio-img pt-4"></a></li>
         </ul>
       </div>
         <div class="col-md-6">
@@ -84,20 +83,35 @@
         </div>
       </div>
           <div class="row bg-solid-dark">
-            <div class="col-md-12">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
               <div class="tab-content">
                 <div id="home" class="tab-pane fade in active">
-                  <h3 class="txt-white">HOME</h3>
-                  <p class="txt-white">Some content.</p>
+                  <img class="cc-home-img" src="resources/img/CCHOMESHORT.png">
+                  <p class="txt-white txt-details txt-justify txt-indent">Conscious Coffee is a concept coffee site fictionally operated throughout Oslo, Norway.
+                    The purpose of the site was to provide information to the on-the-go user. Information included 
+                    opening and closing hours as well as locations around town. The emphasis on mobile responsiveness was
+                    a priority for this site.
+                  </p>
+                  <p class="txt-white txt-details txt-centered">
+                      Built with bootstrap.
+                  </p>
                 </div>
                 <div id="menu1" class="tab-pane fade">
-                  <h3 class="txt-white">Menu 1</h3>
-                  <p class="txt-white">Some content in menu 1.</p>
+                  <img class="snug-img" src="resources/img/tmwl.png">
+                  <p class="txt-white txt-details txt-justify txt-indent">Snug is a concept e-commerce site focused on usability. The company sells child carriers.
+                    The intended audience for this site is withing the age range of 20-70. Meaning anyone with a family or working
+                    in child care. Everything provided within the site can be found within three "clicks" and navigation is intuitive.
+                    Simple and clean design.
+                  </p>
+                  <p class="txt-white txt-details txt-centered">
+                      Built with bootstrap.
+                  </p>
                 </div>
 
               </div>
-
             </div>
+            <div class="col-md-2"></div>
           </div>
 
 
@@ -140,13 +154,13 @@
     <div class="row">
         <div class="col-sm-12">
                 <h3 class="tlh center">The legend himself</h3>
-                <p class="just">Darren aka DK aaka DMak was born and raised in Houston, Tx.
+                <p class="txt-justify">Darren aka DK aaka DMak was born and raised in Houston, Tx.
                     These days he finds himself far from home in Norway, and hangs his hat right outside of Oslo.
                     With this great new chapter in his life he also took on the challenge to do what he's always wanted to do. 
                     Develop. Full of imagination and creativity he began learning Front End Development in 2017 and is now an emerging developer
                     looking for new opportunities within DEVOPS. </p>
-                    <p class="just">Wanna talk? He's always game for a good conversation.</p>
-                    <a class="just" href="https://www.dksolutions.co/contact.html">Reach out here</a>            
+                    <p class="txt-justify">Wanna talk? He's always game for a good conversation.</p>
+                    <a class="txt-justify" href="https://www.dksolutions.co/contact.html">Reach out here</a>            
         </div>
     </div>
     <div class="row">
@@ -156,15 +170,15 @@
     </div>
     <div class="row">
         <div class="col-sm-4">
-                <h4 class="text-centered font-white">Conscious Coffee</h4>
+                <h4 class="txt-centered font-white">Conscious Coffee</h4>
                 <a href="https://www.dksolutions.co/CC/HOME.html"><img src="resources/img/CCHOMESHORT.png" id="cc-img-size" class="portfolio-img pt-4"></a>
         </div>
         <div class="col-sm-4">
-                <h4 class="text-centered font-white">Snug</h4>
+                <h4 class="txt-centered font-white">Snug</h4>
                 <a href="https://www.dksolutions.co/snug/home.html"><img src="resources/img/snug_name.png" id="snug-img-size" class="portfolio-img pt-4"></a>
         </div>
         <div class="col-sm-4">
-                <h4 class="text-centered font-white">Coming Soon!</h4> 
+                <h4 class="txt-centered font-white">Coming Soon!</h4> 
         </div>
     </div>
 
