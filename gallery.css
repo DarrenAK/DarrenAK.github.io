@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+.header{
+  margin-top: 10px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+.flex-col-container{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5px;
+}
+.flex-row-container{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.img-box{
+width: 100%;
+height: auto;
+margin: 5px;
+}
+.img--size{
+  width: 100%;
+  height: auto;
+}
